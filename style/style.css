@@ -1,0 +1,168 @@
+               /*header*/
+.header{
+    max-width: 1280px;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+  width: 92px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+.logo-p{
+    color: blue;
+    font-weight: bold;
+
+}
+.logo :hover{
+    transform: scale(1.1);
+    height: 25px;
+}
+
+
+/*navigation*/
+.navigation{
+    width: 600px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+     display: flex;
+     align-items: center;
+     text-align: center;
+    align-items: center;
+
+   
+}
+.nav-ul{
+   display: flex;
+   justify-content: space-evenly;
+    font-size: 22px;
+    margin-left: 15px;
+    align-items: center;
+  
+
+
+
+}
+
+.nav-li{
+    margin-left: 25px;
+    align-items: center;
+
+     
+}
+
+/*registarcion*/
+.registracion{
+    width: 105px;
+  height: 40px;
+  border-radius: 35px;
+  align-items: center;
+    background-color: rgb(24, 214, 205);
+    text-align: center;
+}
+.regist-p{
+    margin-top: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+
+
+/*bacground-image-1*/
+
+.background-image-1{
+    background-image: url(../images/image-1.png);
+    max-width: 1280px;
+    width: 100%;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.bacground-text-1{
+    max-width: 600px;
+    width: 100%;
+    height: 244px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   margin: 0 auto;
+   padding-top: 300px;
+
+}
+
+.textphoto{
+    width: 287px;
+    height: 92px;
+}
+
+.textwithphoto{
+    background-image: url(../images/Layer\ 2.png);
+    position: relative;
+    width: 287px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.textwithphoto-p{
+    position: absolute;
+    font-size: 19px;
+    color: blue;
+    font-weight: bold;
+    display: flex;
+    align-items:center ;
+    margin-left: 60px;
+}
+
+
+
+/*section 2*/
+
+
+.user-box{
+    max-width: 1280px;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0  auto;
+    
+
+
+}
+
+.user-box-1{
+    
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
