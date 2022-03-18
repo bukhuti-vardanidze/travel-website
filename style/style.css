@@ -1,10 +1,15 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 /*header*/
 .header {
   max-width: 1280px;
   width: 100%;
   height: 70px;
   margin: 0 auto;
-
+ 
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -334,26 +339,29 @@
 .blog-p{
   max-width: 1280px;
   width: 100%;
-  height: 40px;
+  height: 50px;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
   align-items: center;
   color: rgb(39, 107, 209);
-  background-color: black;
   margin: 0 auto;
+}
+.blog-p :hover{
+  color: rgb(5, 105, 145);
+  border-bottom: 2px solid rgb(14, 46, 105);
+  margin-bottom: 10px;
 }
 
 
 .blog-box{
   max-width: 1280px;
   width: 100%;
-  height: 620px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  background-color: aqua;
   margin: 0 auto;
 }
 
@@ -411,15 +419,21 @@
   
 }
 
-.blog-box-2{
+.blog-box-2-cont{
   max-width: 600px;
   width: 100%;
-  height: 290px;
+  height: 600px;
   justify-content: center;
 }
 
+.blog-box-cont-1{
+  max-width: 600px;
+  width: 100%;
+  height:290px ;
+  margin-top: 10px;
+}
 .blog-box-img-2{
-  background-image: url(../images/eva-darron-oCdVtGFeDC0-unsplash.png);
+  background-image: url(../images/plane.jpg);
   max-width: 600px;
   width: 100%;
   height:290px ;
@@ -429,11 +443,98 @@
   justify-content: center;
   border-radius: 350px;
   display: flex;
-  opacity: 0.9;
+  opacity: 0.8;
 
 }
 
+.blog-box-p2{
+  color:#fff ;
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+ margin-top: -180px;
+ position: relative;
+ 
+  
+}
 
+
+.blog-box-cont-2{
+  max-width: 600px;
+  width: 100%;
+  height:290px ;
+  margin-top: 10px;
+}
+.blog-box-img-3{
+  background-image: url(../images/ibrahim-rifath-Y6tBl0pTe-g-unsplash.png);
+  max-width: 600px;
+  width: 100%;
+  height:290px ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  border-radius: 350px;
+  display: flex;
+  opacity: 0.8;
+
+}
+.blog-box-p3{
+  color:#fff ;
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+ margin-top: -190px;
+ position: relative;
+ 
+  
+}
+/*section-5*/
+.section-5-book{
+  max-width: 1280px;
+  width: 100%;
+  height: 600px;
+  
+  margin:  15px auto;
+}
+.section-5-book-img{
+  background-image: url(../images/nature.jpg);
+ 
+  width: 100%;
+  height:600px ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  border-radius: 35px;
+}
+.section-5-book-p{
+  color:rgb(32, 140, 167) ;
+  font-size: 55px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+ margin-top: -370px;
+ position: relative;
+}
+
+.section-5-book-box{
+  width: 170px;
+  height: 50px;
+  background: rgb(111,185,223);
+  background: linear-gradient(90deg, rgba(111,185,223,1) 0%, rgba(88,212,244,0.6477941518404237) 50%, rgba(38,125,222,1) 100%); 
+  border-radius: 35px;
+  
+ color: #08AEEA;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  margin: 25px auto;
+ position: relative;
+ padding-top: 15px;
+}
 
 
 /*section-map*/
@@ -441,7 +542,7 @@
   max-width: 1280px;
   width: 100%;
   height: 450px;
-  margin: 0 auto;
+  margin: 15px auto;
   border-radius: 25px;
 }
 
