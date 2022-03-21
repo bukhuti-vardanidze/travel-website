@@ -6,22 +6,11 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 })
 
-document.querySelector('.nav-link').forEach( n => n.addEventListener('click', () => {
+/*document.querySelector('.nav-link').forEach( n => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 
-} ));
+} ))*/
 
 
 /*animation */
-LottieInteractivity.create({
-  mode: 'scroll',
-  player: '#firstLottie',
-  actions: [
-      {
-        visibility: [0,1],
-        type: 'seek',
-        frames: [0, 900],
-      },
-    ],
-});
