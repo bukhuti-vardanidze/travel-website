@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Website</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+    crossorigin="anonymous"
+  />
 
     <link rel="stylesheet" href="style/reset.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <header>
       <div class="header">
+
+        <div class="burger" id="burgerbar" >
+          <i class="fas fa-bars"></i>
+        </div>
+
+
         <a href="index.html">
           <div class="logo">
             <img src="images/globe.svg" alt="logo" />
@@ -19,7 +32,7 @@
           </div>
         </a>
 
-        <div class="navigation">
+        <div class="navigation" id="navigation">
           <nav class="nav">
             <ul class="nav-ul">
               <li class="nav-li"><a href="#Home">Home </a></li>
@@ -29,16 +42,23 @@
               <li class="nav-li"><a href="#Tour Package">Tour Package </a></li>
             </ul>
           </nav>
+
         </div>
 
-        <div class="registracion">
+      <a href="register.html"> 
+         <div class="registracion">
           <p class="regist-p">sign in</p>
-        </div>
+        </div></a>
+
+        
+         
+
       </div>
     </header>
 
     <!--  section -1-->
     <section id="Home">
+     
       <div class="background-image-1">
         <div class="bacground-text-1">
           <div class="textphoto">
@@ -81,6 +101,8 @@
         </div>
       </div>
     </section>
+
+
     <!--section 3-->
     <section id="Our Services">
       <div class="place-offer">
@@ -253,7 +275,7 @@
       </div>
 
       <div class="blog-box">
-        <div class="blog-box-1">
+     <a href="google.com">   <div class="blog-box-1">
           <a href="#"> <div class="blog-box-img-1"></div></a>
 
           <p class="blog-box-p1">
@@ -262,6 +284,7 @@
             Mount Kilimanjaro
           </p>
         </div>
+      </a>
 
         <div class="blog-box-2-cont">
           <div class="blog-box-cont-1">
@@ -276,7 +299,7 @@
             <div class="blog-box-img-3"></div>
             <p class="blog-box-p3">
               The Ultimate Packing List for <br />
-              Female Travelers
+              Female / Male Travelers
             </p>
           </div>
         </div>
@@ -296,14 +319,8 @@
 
     <!--section -map-->
     <section class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3477.242015895825!2d44.804413502360205!3d41.7112960534662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ska!2sge!4v1647543873786!5m2!1ska!2sge"
-        width="100%"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
+      <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3477.242015895825!2d44.804413502360205!3d41.7112960534662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ska!2sge!4v1647543873786!5m2!1ska!2sge"
+        width="100%"   height="450"  style="border: 0"  allowfullscreen=""  loading="lazy" ></iframe>
     </section>
 
     <footer>
@@ -317,9 +334,7 @@
         </div>
 
         <div class="footer-icons">
-          <a href="#"><img src="images/facebook.svg" alt="fb-icon" /></a>
-          <a href="#"><img src="images/LinkedIn.svg" alt="LinkedIn-icon" /></a>
-          <a href="#"><img src="images/Instagram.svg" alt="" /></a>
+         
         </div>
       </div>
 
@@ -327,5 +342,8 @@
         Copyright © 2022 // All rights reserved // Bukhuti Vardanidze
       </p>
     </footer>
+
+
+    <script src="javaScript/index.js"></script>
   </body>
 </html>
